@@ -1,0 +1,41 @@
+container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggle:hover{
+    background-color: yellow;
+}
+
+#header-nav{
+    background-color: lightblue;
+    border-radius: 0;
+    border: 0;
+    margin: auto;
+    padding: auto;
+}
+#navlist{
+    text-align: center;
+    background-color: burlywood;
+}
+.content-box{
+    box-sizing: border-box;
+    background-color: rgba(255, 0, 0, 0.345);
+    padding-top: 100px;
+    height: 600px;
+    width: auto;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    position: relative;
+    border-radius: 1px;
+}
+
+p{
+    background-color: palevioletred;
+    border-style: solid;
+    text-align: center;
+    font-size: large;
+}
+.main-title{
+    text-align: center;
+}
