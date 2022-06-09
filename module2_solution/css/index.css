@@ -29,6 +29,7 @@ body{
     
 }
 #corner{
+    background-color: blue;
     text-align: center;
     border: 1px;
     border-color: black;
@@ -60,12 +61,12 @@ h1{
         float: left;
     }
     .col-m-12{
-        width: 98%;
+        width: 96%;
         float: left;
     }
     #corner{
-        left: 86%;
-        bottom: 85%;
+        left: 87%;
+        bottom: 86%;
     }
 }
 
@@ -81,5 +82,3 @@ h1{
         bottom: 86%;
     }
 }
-    
-
