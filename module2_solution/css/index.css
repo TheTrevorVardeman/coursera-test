@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+.boxes{
+    background-color: lightslategrey;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    padding-top: 20px;
+}
+#clr{
+    background-color: blue;
+}
+#clr2{
+    background-color: white;
+}
+#clr3{
+    background-color: yellow;
+
+    
+}
+#corner{
+    background-color: blue;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    width: 50px;
+    
+}
+h1{
+    text-align: center;
+    
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+    }
+    .col-sm-12 {
+        width: 98%;
+    }
+    #corner{
+        left: 92.75%;
+        bottom: 86%;
+        float: right;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-m-6{
+        width: 47%;
+        float: left;
+    }
+    .col-m-12{
+        width: 96%;
+        float: left;
+    }
+    #corner{
+        left: 87%;
+        bottom: 86%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+    }
+    .col-lg-4{
+        width: 31%;
+    }
+    #corner{
+        left: 83.5%;
+        bottom: 86%;
+    }
+}
